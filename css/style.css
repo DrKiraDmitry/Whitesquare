@@ -181,7 +181,7 @@ padding: 0px 100px;
 	justify-content: center;
 }
 .l7-st2 img{
-	width: 100%;
+	margin: 0px 10px;
 }
 /**/
 #l8{
@@ -189,6 +189,7 @@ padding: 0px 100px;
 	flex-direction: column;
 	background: url(img/l8.jpg);
 	color: #f4f4f4;
+	padding-bottom:50px; 
 }
 .l8-s2{
 	display: flex;
@@ -200,14 +201,31 @@ padding: 0px 100px;
 #l8 h1{
 	text-align: center;
 }
-/**/
+#l8 button{
+	align-self: center;
+	background: #11749e;
+	color: #f4f7f9;
+	width: 250px;
+	height: 60px;
+	display: block;
+	text-align: center;
+	border: 0px;
+	font-size: 30px;
+}
+.l8m input{
+	height: 200px;
+}
 input{
 	width:100%; 
 	background: transparent;
 	border: 1px solid #ffffff;
-	margin: 0px 20px;
-	height: 20px;
+	color: #f3f3f3;
 }
+.l8-s2 input{
+	margin: 0px 20px;
+	height: 50px;
+}
+/**/
 .l9{
 	display: flex
 }
