@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+body{
+	font-family: "lato";
+	margin: 0px;
+	display: flex;
+	flex-direction: column;
+	flex: auto;
+	max-width: 1400px;
+}
+/**/
+#heading {
+	background: url(img/1.jpg);
+	width: auto;
+}
+nav{
+	padding-top: 15px; 
+	border-bottom: 1px solid #787878;
+}
+nav a{
+	text-decoration: none;
+	color: #b2b2b2;
+} 
+nav .logo1{ 
+	padding: 15px 130px; 
+	width:100%;
+	margin:50;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+}
+nav li{
+	list-style-position: inside;
+	font: 16px 'arial', sans-serif;
+	display: inline-block;/*генерируем блочный эллемент*/
+	padding: 10px 30px;/*Первое значение устанавливает поля от верхнего и нижнего краёв, второе — от левого и правого.*/
+	margin: 0;	
+}
+.top-menu li .active{
+	padding-bottom: 7px;
+	border-bottom: 4px solid #29c5e6;
+}
+/**/
+.first-layer{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font-family: "lato";
+	padding: 160px 0px;
+}
+.creativ{
+	display: flex;
+	flex-direction: column;
+}
+.first-layer h1{
+	margin: 0;
+	color: #f5f5f5;
+	font-size: 100px;
+}
+.first-layer h3{
+	margin: 0;
+	color:#11749e;
+	font-size: 30px;
+}
+.strelka {
+	padding-top: 250px;
+	display: flex;
+	flex-direction: column;
+}
+.strelka a{
+}
+/**/
+#l2{
+	background: #11749e;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	color: #f4f4f4;
+	padding: 110px 0px;
+	font-family: "lato";
+}
+.l2-content{
+	display: flex;
+	flex-direction: row;
+	padding-top: 50px; 
+}
+.l2-content div{
+	margin: 20px;
+}
+/**/
+#l3{
+	display: flex;
+	flex-direction: column;
+	background:#f3f3f3;
+}
+#l3 .l3-st1, #l3 .l3-st2{
+	display: flex;
+	flex-direction: row;
+	height: 400px;
+}
+#l3 img{
+	width: 50%;
+}
+.l3-st1{
+	background: #222222;
+	color: #f3f3f3;
+}
+.l3-st1 div, .l3-st2 div{
+	padding: 90px;
+}
+/**/
+#l4 {
+display: flex;
+flex-direction: column;
+background: #f4f4f4;
+text-align: center;
+padding: 50px;
+}
+.l4-st2{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-top: 50px;
+}
+.l4-st2 img{
+	width: 100%;
+}
+.l4-st2 div{
+	margin: 20px;
+}
+/**/
+#l5{
+	display: flex;
+	flex-direction: row;
+	background-color: #11749e;
+	padding: 100px 80px;
+	color: #f4f7f9;
+	
+}
+#l5 img{
+	float: left;
+	padding: 0px 20px;
+}
+/**/
+#l6 {
+	display: flex;
+	background: url(img/l6.jpg);
+	color: #f4f7f9;
+	padding: 150px;
+}
+#l6 div {
+	display: flex;
+	flex-direction: column;
+}
+#l6 span{
+	margin: 10px 0px;
+	background: #11749e;
+}
+#l6 p{
+	margin: 50px 0px 120px;
+}
+#l6 span p{
+	padding: 0px 10px;
+	margin: 9px;
+}
+#l6 img{
+padding: 0px 100px;
+}
+/**/
+#l7 {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	background: #f4f7f9;
+	padding: 50px 0px;
+}
+.l7-st2{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.l7-st2 img{
+	width: 100%;
+}
+/**/
+#l8{
+	display: flex;
+	flex-direction: column;
+	background: url(img/l8.jpg);
+	color: #f4f4f4;
+}
+.l8-s2{
+	display: flex;
+	flex-direction: row;
+}
+#l8 div{
+	padding: 50px;
+}
+#l8 h1{
+	text-align: center;
+}
+/**/
+input{
+	width:100%; 
+	background: transparent;
+	border: 1px solid #ffffff;
+	margin: 0px 20px;
+	height: 20px;
+}
+.l9{
+	display: flex
+}
+footer{
+	background: #222222;
+	color: #f4f4f4;
+	padding: 50px;
+}
+/* текст по верх картинки с буквой .logo*/
+.logo h1{
+	position:absolute;
+	margin: 0;
+}
+.logo{
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+.logo img{
+	display: inline-block;
+	position: relative;
+}
