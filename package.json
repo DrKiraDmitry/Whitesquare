@@ -1,0 +1,14 @@
+{
+  "name": "whitesquare",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/DrKiraDmitry/Whitesquare",
+  "author": "DrKiraDmitry",
+  "license": "MIT",
+  "scripts": {
+    "server": "npx http-server dist"
+  },
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
