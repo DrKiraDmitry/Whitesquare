@@ -6,6 +6,8 @@ body{
 	flex-direction: column;
 	flex: auto;
 	max-width: 1400px;
+	margin: 0 auto;
+	background: #222222;
 }
 /**/
 #heading {
